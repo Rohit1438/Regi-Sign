@@ -6,12 +6,10 @@ import { AuthContext } from "../Context/AuthContextProvider";
 export const PrivateRoute = ({ children }) => {
   const { isAuth } = useContext(AuthContext);
 
-
-
   const token = localStorage.getItem("regsign") || "";
 
   const location = useLocation();
-//
+  //
   return isAuth ? (
     children
   ) : (

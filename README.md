@@ -6,8 +6,9 @@ Express.js-powered authentication system leveraging JWT, Bcrypt, and MongoDB for
  Fullstack
 
 ## Deplolyed App
-Frontend: https://regsign.vercel.app/signup
-Backend: https://mock61st.onrender.com
+
+- Frontend: https://regsign.vercel.app/signup
+- Backend: https://mock61st.onrender.com
 
 
 ## Directory Structure
@@ -59,4 +60,8 @@ open the deployed link and fill the details with proper email, userid, phone and
 - Express.js
 - MongoDB
 #libraries
-axios,morgan,jwt,bcrypt .
+
+- axios
+- morgan
+- jwt
+- bcrypt .
